@@ -2,9 +2,9 @@ package chapter7;
 
 import java.util.Random;
 
-public class LotteryTicket {
+public class LotteryTicket2 {
 
-    private  static  final int LENGTH = 6;
+        private  static  final int LENGTH = 6;
     private static final int MAX_TICKET_NUMBER = 69;
 
     public static void main(String[] args) {
@@ -32,4 +32,5 @@ public class LotteryTicket {
             System.out.print(ticket[i] + "    ");
         }
     }
+
 }
